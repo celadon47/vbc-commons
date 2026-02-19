@@ -1,9 +1,9 @@
-import { Libre_Baskerville, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Source_Serif_4, DM_Sans, JetBrains_Mono } from "next/font/google";
 
-export const libreBaskerville = Libre_Baskerville({
+export const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-libre-baskerville",
+  variable: "--font-source-serif",
   display: "swap",
 });
 

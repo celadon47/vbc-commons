@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { libreBaskerville, dmSans, jetbrainsMono } from "./fonts";
+import { sourceSerif, dmSans, jetbrainsMono } from "./fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${libreBaskerville.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
+        className={`${sourceSerif.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         <div className="flex min-h-screen flex-col">
           <Header />

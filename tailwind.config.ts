@@ -26,7 +26,7 @@ const config: Config = {
         purple: "#8b5cf6",
       },
       fontFamily: {
-        serif: ["var(--font-libre-baskerville)", "Georgia", "serif"],
+        serif: ["var(--font-source-serif)", "Georgia", "serif"],
         sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
         mono: ["var(--font-jetbrains-mono)", "monospace"],
       },
